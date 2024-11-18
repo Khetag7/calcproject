@@ -1,0 +1,174 @@
+.calc__title-text {
+	font-family: 'roboto', sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+		-1px 1px 0 #000, 1px 1px 0 #000;
+}
+.calc__block {
+	background: linear-gradient(#518fd6, #c72a2a, #c4ed53);
+	border: 5px solid #f2ccff;
+	border-radius: 20px;
+	padding: 25px 25px;
+}
+.calc__block-button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+.calc__block-buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+.calc__meaning {
+	color: #000000;
+	font-size: 40px;
+	font-family: 'roboto', sans-serif;
+	background-color: #ffffff;
+	border: 1px solid rgba(255, 255, 255, 0.01);
+	border-radius: 16px;
+	text-align: right;
+	line-height: 60px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+.calc__button-1,
+.calc__button-2,
+.calc__button-3,
+.calc__button-4,
+.calc__button-5,
+.calc__button-6,
+.calc__button-7,
+.calc__button-8,
+.calc__button-9,
+.calc__button-equal,
+.calc__button-plus,
+.calc__button-minus,
+.calc__button-delenie,
+.calc__button-umnoj,
+.calc__button-arrowleft {
+	font-family: 'roboto', sans-serif;
+	color: #000000;
+	background-color: #ffffff;
+	width: 100px;
+	line-height: 100px;
+	border-radius: 20px;
+	font-size: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+.calc__button-0 {
+	font-family: 'roboto', sans-serif;
+	color: #000000;
+	background-color: #ffffff;
+	width: 320px;
+	line-height: 100px;
+	border-radius: 20px;
+	font-size: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+.calc__button-clear {
+	font-family: 'roboto', sans-serif;
+	color: #000000;
+	width: 206px;
+	line-height: 100px;
+	border-radius: 20px;
+	font-size: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+.calc__button-1:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-2:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-3:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-4:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-5:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-6:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-7:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-8:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-9:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-0:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-clear:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-equal:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-plus:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-minus:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-delenie:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-umnoj:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+.calc__button-arrowleft:hover {
+	background-color: #7c46fa;
+	transition: 0.3s;
+}
+
+.calc__button-equal,
+.calc__button-plus,
+.calc__button-minus,
+.calc__button-delenie,
+.calc__button-umnoj {
+	background-color: #ff3a5b;
+}
+.calc__button-clear,
+.calc__button-arrowleft {
+	background-color: #ff755d;
+}
+.calc__wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

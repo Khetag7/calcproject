@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+body {
+	background: #ffffff;
+	background-size: cover;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.g-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+	width: 100%;
+}
